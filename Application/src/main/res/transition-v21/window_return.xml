@@ -17,7 +17,7 @@
 <transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
     android:transitionOrdering="sequential">
 
-    <transition class="com.example.android.xyztouristattractions.ui.ScaleTransition"
+    <transition class="io.bitrise.android.xyztouristattractions.ui.ScaleTransition"
         android:interpolator="@android:interpolator/fast_out_linear_in"
         android:duration="@android:integer/config_shortAnimTime">
         <targets>

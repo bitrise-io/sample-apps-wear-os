@@ -17,7 +17,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.android.xyztouristattractions">
+    package="io.bitrise.android.xyztouristattractions">
 
     <uses-feature android:name="android.hardware.type.watch" />
 
@@ -35,14 +35,14 @@
             android:value="false" />
 
         <activity
-            android:name=".ui.AttractionsActivity"
+            android:name="io.bitrise.android.xyztouristattractions.ui.AttractionsActivity"
             android:label="@string/app_name" />
 
         <activity
             android:name="android.support.wearable.activity.ConfirmationActivity"
             android:theme="@android:style/Theme.Translucent" />
 
-        <service android:name=".service.ListenerService">
+        <service android:name="io.bitrise.android.xyztouristattractions.service.ListenerService">
             <intent-filter>
                 <!-- listeners receive events that match the action and data filters -->
                 <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
@@ -55,7 +55,7 @@
             </intent-filter>
         </service>
 
-        <service android:name=".service.UtilityService" />
+        <service android:name="io.bitrise.android.xyztouristattractions.service.UtilityService" />
 
         <meta-data android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
