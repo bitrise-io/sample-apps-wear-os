@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package io.bitrise.android.xyztouristattractions.provider;
+package io.bitrise.android.sample_xyztouristattractions.provider;
 
 import android.net.Uri;
 
-import io.bitrise.android.xyztouristattractions.common.Attraction;
+import io.bitrise.android.sample_xyztouristattractions.common.Attraction;
 import com.google.android.gms.location.Geofence;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.maps.android.SphericalUtil;

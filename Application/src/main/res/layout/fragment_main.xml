@@ -22,7 +22,7 @@
     android:orientation="vertical"
     tools:context=".AttractionListFragment">
 
-    <io.bitrise.android.xyztouristattractions.ui.AttractionsRecyclerView
+    <io.bitrise.android.sample_xyztouristattractions.ui.AttractionsRecyclerView
         android:id="@android:id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

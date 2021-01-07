@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.bitrise.android.xyztouristattractions.ui;
+package io.bitrise.android.sample_xyztouristattractions.ui;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -32,16 +32,16 @@ import androidx.fragment.app.Fragment;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import static io.bitrise.android.xyztouristattractions.provider.TouristAttractions.ATTRACTIONS;
+import static io.bitrise.android.sample_xyztouristattractions.provider.TouristAttractions.ATTRACTIONS;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import io.bitrise.android.xyztouristattractions.R;
-import io.bitrise.android.xyztouristattractions.common.Attraction;
-import io.bitrise.android.xyztouristattractions.common.Constants;
-import io.bitrise.android.xyztouristattractions.common.Utils;
-import io.bitrise.android.xyztouristattractions.provider.TouristAttractions;
-import io.bitrise.android.xyztouristattractions.service.UtilityService;
+import io.bitrise.android.sample_xyztouristattractions.R;
+import io.bitrise.android.sample_xyztouristattractions.common.Attraction;
+import io.bitrise.android.sample_xyztouristattractions.common.Constants;
+import io.bitrise.android.sample_xyztouristattractions.common.Utils;
+import io.bitrise.android.sample_xyztouristattractions.provider.TouristAttractions;
+import io.bitrise.android.sample_xyztouristattractions.service.UtilityService;
 import com.google.android.gms.location.FusedLocationProviderApi;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.maps.android.SphericalUtil;

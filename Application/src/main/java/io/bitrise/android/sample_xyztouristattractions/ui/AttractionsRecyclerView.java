@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.bitrise.android.xyztouristattractions.ui;
+package io.bitrise.android.sample_xyztouristattractions.ui;
 
 import android.content.Context;
 import android.util.AttributeSet;

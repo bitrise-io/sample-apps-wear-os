@@ -15,7 +15,7 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bitrise.android.xyztouristattractions.common">
+    package="com.bitrise.android.sample_xyztouristattractions.common">
 
     <application android:allowBackup="true"/>
 

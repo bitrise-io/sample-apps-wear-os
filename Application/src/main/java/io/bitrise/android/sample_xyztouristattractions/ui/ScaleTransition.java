@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.bitrise.android.xyztouristattractions.ui;
+package io.bitrise.android.sample_xyztouristattractions.ui;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;

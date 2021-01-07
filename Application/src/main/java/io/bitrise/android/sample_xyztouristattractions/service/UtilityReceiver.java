@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.bitrise.android.xyztouristattractions.service;
+package io.bitrise.android.sample_xyztouristattractions.service;
 
 import android.content.Context;
 import android.content.Intent;
