@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.bitrise.android.xyztouristattractions.ui;
+package io.bitrise.android.sample_xyztouristattractions.ui;
 
 import android.app.Activity;
 import android.content.Context;
@@ -35,11 +35,11 @@ import android.widget.ProgressBar;
 
 import androidx.core.view.GestureDetectorCompat;
 
-import io.bitrise.android.xyztouristattractions.R;
-import io.bitrise.android.xyztouristattractions.common.Attraction;
-import io.bitrise.android.xyztouristattractions.common.Constants;
-import io.bitrise.android.xyztouristattractions.common.Utils;
-import io.bitrise.android.xyztouristattractions.service.UtilityService;
+import io.bitrise.android.sample_xyztouristattractions.R;
+import io.bitrise.android.sample_xyztouristattractions.common.Attraction;
+import io.bitrise.android.sample_xyztouristattractions.common.Constants;
+import io.bitrise.android.sample_xyztouristattractions.common.Utils;
+import io.bitrise.android.sample_xyztouristattractions.service.UtilityService;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;

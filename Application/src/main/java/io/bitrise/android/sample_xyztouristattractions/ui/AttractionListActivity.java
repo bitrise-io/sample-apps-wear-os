@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.bitrise.android.xyztouristattractions.ui;
+package io.bitrise.android.sample_xyztouristattractions.ui;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -28,9 +28,9 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
-import io.bitrise.android.xyztouristattractions.R;
-import io.bitrise.android.xyztouristattractions.common.Utils;
-import io.bitrise.android.xyztouristattractions.service.UtilityService;
+import io.bitrise.android.sample_xyztouristattractions.R;
+import io.bitrise.android.sample_xyztouristattractions.common.Utils;
+import io.bitrise.android.sample_xyztouristattractions.service.UtilityService;
 import com.google.android.material.snackbar.Snackbar;
 
 /**

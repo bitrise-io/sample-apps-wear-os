@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.bitrise.android.xyztouristattractions.service;
+package io.bitrise.android.sample_xyztouristattractions.service;
 
 import android.app.IntentService;
 import android.app.NotificationManager;
@@ -22,9 +22,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import io.bitrise.android.xyztouristattractions.R;
-import io.bitrise.android.xyztouristattractions.common.Constants;
-import io.bitrise.android.xyztouristattractions.common.Utils;
+import io.bitrise.android.sample_xyztouristattractions.R;
+import io.bitrise.android.sample_xyztouristattractions.common.Constants;
+import io.bitrise.android.sample_xyztouristattractions.common.Utils;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.wearable.CapabilityApi;

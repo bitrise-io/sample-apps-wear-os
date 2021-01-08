@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.bitrise.android.xyztouristattractions.common;
+package io.bitrise.android.sample_xyztouristattractions.common;
 
 public class Constants {
 

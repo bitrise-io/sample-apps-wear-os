@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package io.bitrise.android.xyztouristattractions.service;
+package io.bitrise.android.sample_xyztouristattractions.service;
 
 import android.content.Intent;
 import android.net.Uri;
 import android.util.Log;
 
-import io.bitrise.android.xyztouristattractions.common.Constants;
-import io.bitrise.android.xyztouristattractions.ui.DetailActivity;
+import io.bitrise.android.sample_xyztouristattractions.common.Constants;
+import io.bitrise.android.sample_xyztouristattractions.ui.DetailActivity;
 import com.google.android.gms.wearable.MessageEvent;
 import com.google.android.gms.wearable.WearableListenerService;
 

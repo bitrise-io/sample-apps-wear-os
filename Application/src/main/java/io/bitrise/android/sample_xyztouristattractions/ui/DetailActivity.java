@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.bitrise.android.xyztouristattractions.ui;
+package io.bitrise.android.sample_xyztouristattractions.ui;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -28,7 +28,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.app.ActivityOptionsCompat;
 
-import io.bitrise.android.xyztouristattractions.R;
+import io.bitrise.android.sample_xyztouristattractions.R;
 
 /**
  * The tourist attraction detail activity screen which contains the details of

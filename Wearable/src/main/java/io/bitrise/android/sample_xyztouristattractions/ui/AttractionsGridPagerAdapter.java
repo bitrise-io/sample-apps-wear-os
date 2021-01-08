@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.bitrise.android.xyztouristattractions.ui;
+package io.bitrise.android.sample_xyztouristattractions.ui;
 
 import android.app.Activity;
 import android.content.Context;
@@ -39,10 +39,10 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import io.bitrise.android.xyztouristattractions.R;
-import io.bitrise.android.xyztouristattractions.common.Attraction;
-import io.bitrise.android.xyztouristattractions.common.Constants;
-import io.bitrise.android.xyztouristattractions.service.UtilityService;
+import io.bitrise.android.sample_xyztouristattractions.R;
+import io.bitrise.android.sample_xyztouristattractions.common.Attraction;
+import io.bitrise.android.sample_xyztouristattractions.common.Constants;
+import io.bitrise.android.sample_xyztouristattractions.service.UtilityService;
 
 import java.util.ArrayList;
 
