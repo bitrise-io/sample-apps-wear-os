@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   Copyright 2015 Google Inc. All rights reserved.
 
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,14 +20,18 @@
 
     <uses-feature android:name="android.hardware.type.watch" />
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" tools:node="remove" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:node="remove" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@android:style/Theme.DeviceDefault" >
+        android:theme="@android:style/Theme.DeviceDefault">
 
         <meta-data
             android:name="com.google.android.wearable.standalone"
@@ -42,22 +45,31 @@
             android:name="android.support.wearable.activity.ConfirmationActivity"
             android:theme="@android:style/Theme.Translucent" />
 
-        <service android:name="io.bitrise.android.sample_xyztouristattractions.service.ListenerService">
+        <service
+            android:name="io.bitrise.android.sample_xyztouristattractions.service.ListenerService"
+            android:exported="true">
             <intent-filter>
                 <!-- listeners receive events that match the action and data filters -->
                 <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
                 <!-- filters by Constants.EXTRA_ATTRACTIONS -->
-                <data android:scheme="wear" android:host="*" android:pathPrefix="/attraction"/>
+                <data
+                    android:host="*"
+                    android:pathPrefix="/attraction"
+                    android:scheme="wear" />
 
                 <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
                 <!-- filters by Constants.CLEAR_NOTIFICATIONS_PATH -->
-                <data android:scheme="wear" android:host="*" android:pathPrefix="/clear"/>
+                <data
+                    android:host="*"
+                    android:pathPrefix="/clear"
+                    android:scheme="wear" />
             </intent-filter>
         </service>
 
         <service android:name="io.bitrise.android.sample_xyztouristattractions.service.UtilityService" />
 
-        <meta-data android:name="com.google.android.gms.version"
+        <meta-data
+            android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
     </application>
