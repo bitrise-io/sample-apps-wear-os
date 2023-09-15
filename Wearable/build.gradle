@@ -41,7 +41,7 @@ List<String> dirs = [
 
 android {
 
-    compileSdkVersion 31
+    compileSdkVersion 33
 
     defaultConfig {
         versionCode 494
@@ -49,7 +49,7 @@ android {
 
         minSdkVersion 23
 
-        targetSdkVersion 31
+        targetSdkVersion 33
 
 
     }
