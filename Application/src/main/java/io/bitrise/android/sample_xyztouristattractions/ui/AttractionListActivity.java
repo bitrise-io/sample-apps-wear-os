@@ -90,24 +90,24 @@ public class AttractionListActivity extends AppCompatActivity implements
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        switch (item.getItemId()) {
-            case R.id.test_notification:
-                UtilityService.triggerWearTest(this, false);
-                showDebugDialog(R.string.action_test_notification,
-                        R.string.action_test_notification_dialog);
-                return true;
-            case R.id.test_microapp:
-                UtilityService.triggerWearTest(this, true);
-                showDebugDialog(R.string.action_test_microapp,
-                        R.string.action_test_microapp_dialog);
-                return true;
-            case R.id.test_toggle_geofence:
-                boolean geofenceEnabled = Utils.getGeofenceEnabled(this);
-                Utils.storeGeofenceEnabled(this, !geofenceEnabled);
-                Toast.makeText(this, geofenceEnabled ?
-                        "Debug: Geofencing trigger disabled" :
-                        "Debug: Geofencing trigger enabled", Toast.LENGTH_SHORT).show();
-                return true;
+        int itemId = item.getItemId();
+        if (itemId == R.id.test_notification) {
+            UtilityService.triggerWearTest(this, false);
+            showDebugDialog(R.string.action_test_notification,
+                    R.string.action_test_notification_dialog);
+            return true;
+        } else if (itemId == R.id.test_microapp) {
+            UtilityService.triggerWearTest(this, true);
+            showDebugDialog(R.string.action_test_microapp,
+                    R.string.action_test_microapp_dialog);
+            return true;
+        } else if (itemId == R.id.test_toggle_geofence) {
+            boolean geofenceEnabled = Utils.getGeofenceEnabled(this);
+            Utils.storeGeofenceEnabled(this, !geofenceEnabled);
+            Toast.makeText(this, geofenceEnabled ?
+                    "Debug: Geofencing trigger disabled" :
+                    "Debug: Geofencing trigger enabled", Toast.LENGTH_SHORT).show();
+            return true;
         }
         return super.onOptionsItemSelected(item);
     }

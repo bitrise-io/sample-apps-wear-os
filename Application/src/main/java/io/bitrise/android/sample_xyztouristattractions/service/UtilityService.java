@@ -370,7 +370,7 @@ public class UtilityService extends IntentService {
                 .setSmallIcon(R.drawable.ic_stat_maps_pin_drop)
                 .setContentIntent(pendingIntent)
                 .setDeleteIntent(deletePendingIntent)
-                .setColor(ContextCompat.getColor(this, R.color.colorPrimary))
+                .setColor(ContextCompat.getColor(this, io.bitrise.android.sample_xyztouristattractions.common.R.color.colorPrimary))
                 .setCategory(Notification.CATEGORY_RECOMMENDATION)
                 .setAutoCancel(true);
 

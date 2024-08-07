@@ -22,7 +22,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import io.bitrise.android.sample_xyztouristattractions.R;
 import io.bitrise.android.sample_xyztouristattractions.common.Constants;
 import io.bitrise.android.sample_xyztouristattractions.common.Utils;
 import com.google.android.gms.common.ConnectionResult;
@@ -155,7 +154,7 @@ public class UtilityService extends IntentService {
         if (connectionResult.isSuccess() && googleApiClient.isConnected()) {
             CapabilityApi.GetCapabilityResult result = Wearable.CapabilityApi.getCapability(
                     googleApiClient,
-                    getApplicationContext().getString(R.string.show_detail_capability_name),
+                    getApplicationContext().getString(io.bitrise.android.sample_xyztouristattractions.common.R.string.show_detail_capability_name),
                     CapabilityApi.FILTER_REACHABLE)
                     .await(GET_CAPABILITY_TIMEOUT_S, TimeUnit.SECONDS);
             if (result.getStatus().isSuccess()) {
