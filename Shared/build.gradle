@@ -2,7 +2,7 @@
 buildscript {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
 
     dependencies {
@@ -14,7 +14,7 @@ apply plugin: 'com.android.library'
 
 repositories {
     google()
-    jcenter()
+    mavenCentral()
 }
 
 dependencies {
@@ -34,16 +34,16 @@ List<String> dirs = [
 
 android {
     namespace 'io.bitrise.android.sample_xyztouristattractions.common'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         minSdkVersion 18
-        targetSdk 33
+        targetSdk 34
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_7
-        targetCompatibility JavaVersion.VERSION_1_7
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 
     sourceSets {
