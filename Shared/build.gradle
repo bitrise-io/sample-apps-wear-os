@@ -34,11 +34,11 @@ List<String> dirs = [
 
 android {
     namespace 'io.bitrise.android.sample_xyztouristattractions.common'
-    compileSdk 34
+    compileSdk 36
 
     defaultConfig {
         minSdkVersion 18
-        targetSdk 34
+        targetSdk 36
     }
 
     compileOptions {
